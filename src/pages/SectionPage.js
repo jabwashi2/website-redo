@@ -1,5 +1,8 @@
 import { ProjectThumbnail } from "../components/ProjectThumbnail";
 
+// props.projects is an array of available project objects
+// each object will have a title, desc, status, and other data
+
 export function SectionPage(props) {
     return(
 
@@ -14,7 +17,16 @@ export function SectionPage(props) {
 };
 
 function GenerateThumbnails(props) {
+    // access section div
+    // make new thumbnail
+    // append to section
+
+    let currentSection = document.getElementById(props.sectionTitle);
     for (let i = 0; i < props.projects.length; i++){
-        
+        let currentProject = props.projects[i];
+
+        let currentThumbnail = <ProjectThumbnail title={currentProject.title} desc={currentProject.desc} status={currentProject.status} />
+
+        currentSection.appendChild(currentThumbnail);
     }
 }
