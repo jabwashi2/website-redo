@@ -1,0 +1,16 @@
+- SectionPage.js is for displaying projects within specific Categories, while ProjectCategoriesPage.js is for displaying only the general categories. The buttons on ProjectCategoriesPage.js will take you to variants of SectionPage.js.
+
+content organization in the json file:
+- projects
+    - category
+    - title
+    - language(s)/tools
+    - status
+    - short description
+    - image(s)/video(s)
+        - list of file paths
+    - content for page
+        - subheadings
+        - descriptions
+    - link
+

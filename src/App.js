@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles/App.css';
+import { Navbar } from './components/Navbar.js';
+import ProjectCategoriesPage from './pages/ProjectCategoriesPage.js';
+import { AboutPage } from './pages/AboutPage.js';
+import { ContactPage } from './pages/ContactPage.js';
+import {ReadJSONFile} from './Helpers.js'
 
 function App() {
+  // <RouterSetup />
+  ReadJSONFile();
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <h1>Welcome to Jabrecia Washintgon's Portfolio</h1>
+      <ProjectCategoriesPage />
+      <AboutPage />
+      <ContactPage />
     </div>
   );
 }

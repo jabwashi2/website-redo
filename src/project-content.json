@@ -1,0 +1,53 @@
+{
+    "about": 
+        {
+            "title": "",
+            "image": "",
+            "content":
+        },
+    "projects":
+        [
+            {
+                "title": "Audio Visualizer",
+                "category": "web",
+                "tools": ["JavaScript", "WebAudio API", "HTML Canvas"],
+                "status": "Complete",
+                "short-desc": "An interactive audio experience that allows you to curate visuals.",
+                "link": "",
+                "images": [],
+                "page-content": {
+                    "subheading 1": "content content content blah blah blah",
+                    "subheading 2": "content content content blah blah blah",
+                    "subheading 3": "content content content blah blah blah"
+                }
+            },
+            {
+                "title": "Default Game",
+                "category": "unity",
+                "tools": ["Unity", "C#"],
+                "status": "Complete",
+                "short-desc": "Default game description",
+                "link": "",
+                "images": [],
+                "page-content": {
+                    "subheading 1": "content content content blah blah blah",
+                    "subheading 2": "content content content blah blah blah",
+                    "subheading 3": "content content content blah blah blah"
+                }
+            },
+            {
+                "title": "Default DirectX Project",
+                "category": "directx11",
+                "tools": ["C++", "DirectX11"],
+                "status": "Complete",
+                "short-desc": "Cool graphics stuff",
+                "link": "",
+                "images": [],
+                "page-content": {
+                    "subheading 1": "content content content blah blah blah",
+                    "subheading 2": "content content content blah blah blah",
+                    "subheading 3": "content content content blah blah blah"
+                }
+            }
+        ]
+}
