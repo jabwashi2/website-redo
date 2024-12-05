@@ -1,5 +1,5 @@
 // this will be the function used to read in json files, simply returns the information
-import dataJSON from './project-content.json'
+import dataJSON from './content.json'
 export function ReadJSONFile(){
     //fetch('/project-content').then((data)=>{console.log(data.text)});
 

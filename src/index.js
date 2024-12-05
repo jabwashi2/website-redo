@@ -11,6 +11,9 @@ import ProjectCategoriesPage from './pages/ProjectCategoriesPage';
 import { AboutPage } from './pages/AboutPage';
 import { ContactPage } from './pages/ContactPage';
 import { SectionPage } from "./pages/SectionPage";
+import { WebPage } from "./pages/WebPage";
+import { UnityPage } from "./pages/UnityPage";
+import { DX11Page } from "./pages/DX11Page";
 
 // an array of objects, can create a function that will generate this array based on the project categories
 const router = createBrowserRouter([
@@ -33,6 +36,18 @@ const router = createBrowserRouter([
   {
     path: "/Sections",
     element: <SectionPage />
+  },
+  {
+    path: "/Web-Projects",
+    element: <WebPage />
+  },
+  {
+    path: "/Unity-Projects",
+    element: <UnityPage />
+  },
+  {
+    path: "/DirectX11-Projects",
+    element: <DX11Page />
   }
 ]);
 

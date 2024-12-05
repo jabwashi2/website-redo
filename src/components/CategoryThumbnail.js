@@ -7,7 +7,7 @@
 export function CategoryThumbnail(props) {
     return (
         <>
-            <a href="google.com">
+            <a href={props.path}>
                 <div>
                     <h1>{props.title}</h1>
                 </div>

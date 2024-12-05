@@ -1,9 +1,24 @@
 {
+    "categories":
+        [
+            {
+                "title": "Web Projects",
+                "path": "/Web-Projects"
+            },
+            {
+                "title": "Unity Projects",
+                "path": "/Unity-Projects"
+            },
+            {
+                "title": "DirectX11 Projects",
+                "path": "/DirectX11-Projects"
+            }
+        ],
     "about": 
         {
             "title": "",
             "image": "",
-            "content":
+            "content": ""
         },
     "projects":
         [
@@ -12,7 +27,7 @@
                 "category": "web",
                 "tools": ["JavaScript", "WebAudio API", "HTML Canvas"],
                 "status": "Complete",
-                "short-desc": "An interactive audio experience that allows you to curate visuals.",
+                "shortdesc": "An interactive audio experience that allows you to curate visuals.",
                 "link": "",
                 "images": [],
                 "page-content": {
@@ -26,7 +41,7 @@
                 "category": "unity",
                 "tools": ["Unity", "C#"],
                 "status": "Complete",
-                "short-desc": "Default game description",
+                "shortdesc": "Default game description",
                 "link": "",
                 "images": [],
                 "page-content": {
@@ -40,7 +55,7 @@
                 "category": "directx11",
                 "tools": ["C++", "DirectX11"],
                 "status": "Complete",
-                "short-desc": "Cool graphics stuff",
+                "shortdesc": "Cool graphics stuff",
                 "link": "",
                 "images": [],
                 "page-content": {
