@@ -8,8 +8,6 @@ import { ProjectThumbnail } from "../components/ProjectThumbnail";
 
 export function SectionPage(props) {
     
-    GenerateThumbnails(props);
-
     return(
 
         <div id={props.sectionTitle}>
@@ -27,7 +25,13 @@ function GenerateThumbnails(props) {
     // make new thumbnail
     // append to section
 
-    let currentSection = document.getElementById(props.sectionTitle);
+    // option 2: create div on your own, add content to div, then return the div
+
+    //let currentSection = document.getElementById(props.sectionTitle);
+
+    let currentSection = document.createElement('div');
+    currentSection.id = props.props.sectionTitle;
+    console.log(currentSection)
 
     // looping through array of projects to get relevant thumbnail info
     for (let i = 0; i < props.projects.length; i++){
