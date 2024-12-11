@@ -11,7 +11,7 @@ import ProjectCategoriesPage from './pages/ProjectCategoriesPage';
 import { AboutPage } from './pages/AboutPage';
 import { ContactPage } from './pages/ContactPage';
 import { SectionPage } from "./pages/SectionPage";
-import { WebPage } from "./pages/WebPage";
+import {WebPage} from './pages/WebPage'
 import { UnityPage } from "./pages/UnityPage";
 import { DX11Page } from "./pages/DX11Page";
 

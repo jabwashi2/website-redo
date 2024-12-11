@@ -1,6 +1,5 @@
 // pass in the chosen category from ProjectCategoriesPage.js and populate this page with projects based on that category
 
-
 import { ProjectThumbnail } from "../components/ProjectThumbnail";
 
 // props.projects is an array of available project objects
@@ -29,9 +28,9 @@ function GenerateThumbnails(props) {
 
     //let currentSection = document.getElementById(props.sectionTitle);
 
-    let currentSection = document.createElement('div');
-    currentSection.id = props.props.sectionTitle;
-    console.log(currentSection)
+    // let currentSection = document.createElement('div');
+    // currentSection.id = props.props.sectionTitle;
+    // console.log(currentSection)
 
     // looping through array of projects to get relevant thumbnail info
     for (let i = 0; i < props.projects.length; i++){
@@ -39,7 +38,7 @@ function GenerateThumbnails(props) {
 
         let currentThumbnail = <ProjectThumbnail title={currentProject.title} desc={currentProject.shortdesc} status={currentProject.status} />
 
-        currentSection.appendChild(currentThumbnail);
+        //currentSection.appendChild(currentThumbnail);
     }
 
 }

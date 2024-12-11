@@ -6,7 +6,6 @@ import { ContactPage } from './pages/ContactPage.js';
 import dataJSON from './content.json'
 
 function App() {
-  console.log(dataJSON.categories.length)
   return (
     <div className="App">
       <Navbar />
