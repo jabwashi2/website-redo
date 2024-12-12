@@ -1,4 +1,5 @@
 import { useParams } from 'react-router-dom'
+import { ImageCarousel } from '../components/ImageCarousel';
 import dataJSON from '../content.json'
 // import {ProjectTemplate} from '../components/ProjectTemplate'
 
@@ -12,7 +13,7 @@ export function ProjectPage() {
             <div id={id}>
                 <a href={project.link}><h1>{project.title}</h1></a>
                 {project.tools.map((tool) => <p>{tool}</p>)}
-                {/* <p>There will be an image carousel here</p> */}
+                <ImageCarousel images={project.images}/>
                 <br></br>
                 
                 <h1>Breakdown</h1>

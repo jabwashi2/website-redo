@@ -40,3 +40,6 @@ projects to display in portfolio:
 - audio visualizer (web)
 - BWH2024 (web) (link to devpost)
 - Casper's Cat Cafe (unity)
+
+Image carousel library (current):
+- https://coreui.io/react/docs/getting-started/introduction/

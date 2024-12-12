@@ -59,7 +59,21 @@
                 "status": "Complete",
                 "shortdesc": "A simple graphics engine created with DirectX11.",
                 "link": "https://youtu.be/20cqGLz0A3o?si=4JGGB4JuxTLdQsIW",
-                "images": [],
+                "images": 
+                [
+                    {
+                        "image": "./images/mc_logo.jpg",
+                        "text": "default image: mc logo"
+                    },
+                    {
+                        "image": "./images/flower_guy1.jpg",
+                        "text": "default image: flower guy"
+                    },
+                    {
+                        "image": "./images/my_gamer_pfp.png",
+                        "text": "default image: gamer pfp"
+                    }
+                ],
                 "pagecontent": [
                     "This simple graphics engine was created using DirectX11, and can render 3D objects within a simple scene. It supports lighting, shadows, materials, specularity, and a simple post processing effect (box blur). The development of this project was supported by my professor, and updates to the engine gradually became more self guided as time went on.",
                     "The process of creating this engine was iterative. We began with making sure simple shapes could be drawn, then slowly progressed to more and more complex shapes and later implementing core craphics principles (such as lighting equations). Most of the problems I encountered in developing this engine involved the many mathematical equations we needed to implement. At times, though I could understand what was being calculated, I couldn't easily wrap my head around using the equation to get the desired end result. Since this was a class project, I had many resources available to me, including my professor, so I was able to figure things out in the end. Patience was important, as well as communicating when issues arose.",
