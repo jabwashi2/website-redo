@@ -8,8 +8,7 @@ import dataJSON from '../content.json'
 export function WebPage(props) {
     return(
         <div>
-            {dataJSON.projects.map((project) => project.category === "web" ? <ProjectThumbnail path={project.path} title={project.title} desc={project.shortdesc} status={project.status}/> : "")} {/*<-- ternary operator filters out projects that don't jave the web category*/}
+            {dataJSON.projects.map((project) => project.category === "web" ? <ProjectThumbnail path={project.path} title={project.title} desc={project.shortdesc} status={project.status} id={project.id} category={project.category}/> : "")} {/*<-- ternary operator filters out projects that don't have the web category*/}
         </div>
     );
 };
-

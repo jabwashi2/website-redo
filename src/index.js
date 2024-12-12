@@ -10,7 +10,8 @@ import {
 import ProjectCategoriesPage from './pages/ProjectCategoriesPage';
 import { AboutPage } from './pages/AboutPage';
 import { ContactPage } from './pages/ContactPage';
-import { SectionPage } from "./pages/SectionPage";
+// import { SectionPage } from "./pages/SectionPage";
+import {ProjectPage} from './pages/ProjectPage'
 import {WebPage} from './pages/WebPage'
 import { UnityPage } from "./pages/UnityPage";
 import { DX11Page } from "./pages/DX11Page";
@@ -33,13 +34,17 @@ const router = createBrowserRouter([
     path: "/Contact",
     element: <ContactPage />
   },
-  {
-    path: "/Sections",
-    element: <SectionPage />
-  },
+  // {
+  //   path: "/ProjectPage",
+  //   element: <ProjectPage />
+  // },
   {
     path: "/Web-Projects",
     element: <WebPage />
+  },
+  {
+    path: "/Web-Projects/:id",
+    element: <ProjectPage />
   },
   {
     path: "/Unity-Projects",
