@@ -16,13 +16,13 @@ export function Navbar() {
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><Link to={"/Sections"}>Web Development</Link></li>
-                                <li><Link to={"/Sections"}>Unity Development</Link></li>
-                                <li><Link to={"/Sections"}>DirectX11/12</Link></li>
+                                <li><Link to={"/Web-Projects"}>Web Development</Link></li>
+                                <li><Link to={"/Unity-Projects"}>Unity Development</Link></li>
+                                <li><Link to={"/DirectX11-Projects"}>DirectX11</Link></li>
                             </ul>
                         </li>
-                        <li className="nav-item"><Link to={"/About"}>About</Link></li>
-                        <li className="nav-item"><Link to={"/Contact"}>Contact</Link></li>
+                        <li className="nav-item"><Link to={"/#about"}>About</Link></li>
+                        <li className="nav-item"><Link to={"/#contact"}>Contact</Link></li>
                     </ul>
                 </div>
             </div>
