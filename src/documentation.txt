@@ -16,14 +16,27 @@ content organization in the json file:
         - descriptions
     - link/path
 
-    for each category page, pass in the following data:
-    - title
-    - desc
-    - status
-    - id
-    - category
+for each category page, pass in the following data:
+- title
+- desc
+- status
+- id
+- category
 
-    for project subheadings/subjects:
-    - Project Description
-    - Process & Problems & Solutions
-    - What's Next?
+for project subheadings/subjects:
+- Project Description
+- Process & Problems & Solutions
+- What's Next?
+
+things to add later:
+- highlights section on home page
+    - can use the image carousel component that will be made soon
+- all projects page
+- image carousel component
+- clean README
+
+projects to display in portfolio:
+- graphics engine (dx11) (link to yt video) (link to updated code, also)
+- audio visualizer (web)
+- BWH2024 (web) (link to devpost)
+- Casper's Cat Cafe (unity)
