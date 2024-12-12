@@ -10,18 +10,18 @@ export function ProjectPage() {
     return (
         <>
             <div id={id}>
-                <h1>{project.title}</h1>
+                <a href={project.link}><h1>{project.title}</h1></a>
                 {project.tools.map((tool) => <p>{tool}</p>)}
                 {/* <p>There will be an image carousel here</p> */}
                 <br></br>
                 
-                {/* <h1>Breakdown</h1>
-                <h2>Lower Header 1</h2>
-                <p>Describe stuff here</p>
-                <h2>Lower Header 2</h2>
-                <p>Describe stuff here</p>
-                <h2>Lower Header 3</h2>
-                <p>Describe stuff here</p> */}
+                <h1>Breakdown</h1>
+                <h2>Project Description</h2>
+                <p>{project.pagecontent[0]}</p>
+                <h2>Process & Problems & Solutions</h2>
+                <p>{project.pagecontent[1]}</p>
+                <h2>What's Next?</h2>
+                <p>{project.pagecontent[2]}</p>
             </div>
         </>
     )

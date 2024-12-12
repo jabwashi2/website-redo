@@ -23,3 +23,7 @@ content organization in the json file:
     - id
     - category
 
+    for project subheadings/subjects:
+    - Project Description
+    - Process & Problems & Solutions
+    - What's Next?

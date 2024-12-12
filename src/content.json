@@ -30,11 +30,11 @@
                 "shortdesc": "An interactive audio experience that allows you to curate visuals.",
                 "link": "",
                 "images": [],
-                "page-content": {
-                    "subheading 1": "content content content blah blah blah",
-                    "subheading 2": "content content content blah blah blah",
-                    "subheading 3": "content content content blah blah blah"
-                },
+                "pagecontent": [
+                    "content content content blah blah blah",
+                    "content content content blah blah blah",
+                    "content content content blah blah blah"
+                ],
                 "id": "audio-vis"
             },
             {
@@ -45,11 +45,11 @@
                 "shortdesc": "Default game description",
                 "link": "",
                 "images": [],
-                "page-content": {
-                    "subheading 1": "content content content blah blah blah",
-                    "subheading 2": "content content content blah blah blah",
-                    "subheading 3": "content content content blah blah blah"
-                },
+                "pagecontent": [
+                    "content content content blah blah blah",
+                    "content content content blah blah blah",
+                    "content content content blah blah blah"
+                ],
                 "id": "unity-game"
             },
             {
@@ -60,11 +60,11 @@
                 "shortdesc": "Cool graphics stuff",
                 "link": "",
                 "images": [],
-                "page-content": {
-                    "subheading 1": "content content content blah blah blah",
-                    "subheading 2": "content content content blah blah blah",
-                    "subheading 3": "content content content blah blah blah"
-                },
+                "pagecontent": [
+                    "content content content blah blah blah",
+                    "content content content blah blah blah",
+                    "content content content blah blah blah"
+                ],
                 "id": "dx11-stuff"
             }
         ]
