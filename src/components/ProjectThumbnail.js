@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 export function ProjectThumbnail(props) {
+    console.log(props.category)
     return (
         <>
             <div id={props.title}>

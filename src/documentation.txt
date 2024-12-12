@@ -16,3 +16,10 @@ content organization in the json file:
         - descriptions
     - link/path
 
+    for each category page, pass in the following data:
+    - title
+    - desc
+    - status
+    - id
+    - category
+

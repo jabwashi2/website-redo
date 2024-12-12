@@ -51,8 +51,16 @@ const router = createBrowserRouter([
     element: <UnityPage />
   },
   {
+    path: "/Unity-Projects/:id",
+    element: <ProjectPage />
+  },
+  {
     path: "/DirectX11-Projects",
     element: <DX11Page />
+  },
+  {
+    path: "/DirectX11-Projects/:id",
+    element: <ProjectPage />
   }
 ]);
 
