@@ -1,5 +1,6 @@
 X- SectionPage.js is for displaying projects within specific Categories, while ProjectCategoriesPage.js is for displaying only the general categories. The buttons on ProjectCategoriesPage.js will take you to variants of SectionPage.js.X
 ^ not using this idea right now, each category gets its own page. may come back to this later, though.
+- projects no longer need a path since we are now using ids
 
 content organization in the json file:
 - projects
