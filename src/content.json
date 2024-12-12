@@ -62,15 +62,15 @@
                 "images": 
                 [
                     {
-                        "image": "./images/mc_logo.jpg",
+                        "image": "/images/mc_logo.jpg",
                         "text": "default image: mc logo"
                     },
                     {
-                        "image": "./images/flower_guy1.jpg",
+                        "image": "/images/flower_guy1.jpg",
                         "text": "default image: flower guy"
                     },
                     {
-                        "image": "./images/my_gamer_pfp.png",
+                        "image": "/images/my_gamer_pfp.png",
                         "text": "default image: gamer pfp"
                     }
                 ],

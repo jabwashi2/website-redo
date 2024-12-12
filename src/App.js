@@ -9,7 +9,6 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <h1 id='#home'>Welcome to Jabrecia Washintgon's Portfolio</h1>
       <ProjectCategoriesPage props={dataJSON}/>
       <AboutPage />
       <ContactPage />
