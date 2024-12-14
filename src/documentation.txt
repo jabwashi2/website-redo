@@ -2,6 +2,8 @@ X- SectionPage.js is for displaying projects within specific Categories, while P
 ^ not using this idea right now, each category gets its own page. may come back to this later, though.
 - projects no longer need a path since we are now using ids
 
+Navbar goes at the top of every page (makes navigation easier, too);
+
 content organization in the json file:
 - projects
     - category
@@ -31,8 +33,9 @@ for project subheadings/subjects:
 things to add later:
 - highlights section on home page
     - can use the image carousel component that will be made soon
+    - make an overload function perhaps
 - all projects page
-- image carousel component
+- image carousel component (done)
 - clean README
 
 projects to display in portfolio:
