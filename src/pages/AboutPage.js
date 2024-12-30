@@ -1,10 +1,14 @@
+import dataJSON from '../content.json'
+
 export function AboutPage() {
+
+    let about = dataJSON.about;
     return (
         <>
         <div id='about'>
-            <img alt=""></img>
-            <h1>Hi, I'm Jabrecia!</h1>
-            <p>This is where my description will go :)</p>
+            <img src={about.image} alt=""></img>
+            <h1>{about.title}</h1>
+            <p>{about.content}</p>
         </div>
             
         </>

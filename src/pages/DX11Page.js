@@ -8,7 +8,7 @@ import dataJSON from '../content.json'
 export function DX11Page(props) {
     return(
         <div>
-            {dataJSON.projects.map((project) => project.category === "directx11" ? <ProjectThumbnail path={project.path} title={project.title} desc={project.shortdesc} status={project.status} id={project.id} category={project.category}/> : "")}
+            {dataJSON.projects.map((project) => project.category === "directx11" ? <ProjectThumbnail path={project.path} title={project.title} desc={project.shortdesc} status={project.status} id={project.id} category={project.category}/> : "Coming soon!")}
         </div>
     );
 };

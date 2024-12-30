@@ -2,7 +2,7 @@ X- SectionPage.js is for displaying projects within specific Categories, while P
 ^ not using this idea right now, each category gets its own page. may come back to this later, though.
 - projects no longer need a path since we are now using ids
 
-Navbar goes at the top of every page (makes navigation easier, too);
+Navbar goes at the top of every page (makes navigation easier, too)
 
 content organization in the json file:
 - projects
@@ -45,4 +45,4 @@ projects to display in portfolio:
 - Casper's Cat Cafe (unity)
 
 Image carousel library (current):
-- https://coreui.io/react/docs/getting-started/introduction/
+- https://getbootstrap.com/docs/4.0/components/carousel/
