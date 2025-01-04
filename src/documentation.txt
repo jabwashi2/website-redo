@@ -46,3 +46,6 @@ projects to display in portfolio:
 
 Image carousel library (current):
 - https://getbootstrap.com/docs/4.0/components/carousel/
+
+Navbar library (current):
+- https://getbootstrap.com/docs/4.0/components/navbar/
