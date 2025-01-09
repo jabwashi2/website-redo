@@ -11,9 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.navbar-toggler-icon {
-  /* background-image: url(../public/images/menu-256.png); */
-  /* background-image: url("data:image/svg+xml;utf8,<svg src="../public/images/menu-svg.svg"> </svg>"); */
-  /* background-color: red; */
-}

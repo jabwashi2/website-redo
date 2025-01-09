@@ -5,24 +5,31 @@ import { Link } from "react-router-dom"
 
 export function Navbar() {
     return (
-        <nav expand="navbar navbar-expand-lg navbar-light bg-steel">
-            <div className="container-fluid">
-                <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                {/* <a class="navbar-brand" href="#">Navbar</a> */}
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
-                            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><Link to={"/Web-Projects"}>Web Development</Link></li>
-                                <li><Link to={"/Unity-Projects"}>Unity Development</Link></li>
-                                <li><Link to={"/DirectX11-Projects"}>DirectX11</Link></li>
-                            </ul>
-                        </li>
-                        <li className="nav-item"><Link to={"/#about"}>About</Link></li>
-                        <li className="nav-item"><Link to={"/#contact"}>Contact</Link></li>
-                    </ul>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <Link to={"/#about"}>About</Link>
+                    </li>
+                    <li class="nav-item">
+                        <Link to={"/#contact"}>Contact</Link>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><Link to={"/Web-Projects"}>Web Development</Link></li>
+                            <li><Link to={"/Unity-Projects"}>Unity Development</Link></li>
+                            <li><Link to={"/DirectX11-Projects"}>DirectX11</Link></li>
+                        </ul>
+                    </li>
+                </ul>
                 </div>
             </div>
         </nav>
