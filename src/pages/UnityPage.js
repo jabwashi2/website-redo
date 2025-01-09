@@ -8,7 +8,7 @@ import dataJSON from '../content.json'
 export function UnityPage(props) {
     return(
         <div>
-            {dataJSON.projects.map((project) => project.category === "unity" ? <ProjectThumbnail path={project.path} title={project.title} desc={project.shortdesc} status={project.status} id={project.id} category={project.category}/> : "Coming Soon!")}
+            {dataJSON.projects.map((project) => project.category === "unity" ? <ProjectThumbnail path={project.path} title={project.title} desc={project.shortdesc} status={project.status} id={project.id} category={project.category}/> : "")}
         </div>
     );
 };

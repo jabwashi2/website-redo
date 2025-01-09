@@ -7,7 +7,6 @@ export function Navbar() {
     return (
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                {/* <a class="navbar-brand" href="#">Navbar</a> */}
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -24,9 +23,9 @@ export function Navbar() {
                             Projects
                         </a>
                         <ul class="dropdown-menu">
-                            <li><Link to={"/Web-Projects"}>Web Development</Link></li>
-                            <li><Link to={"/Unity-Projects"}>Unity Development</Link></li>
-                            <li><Link to={"/DirectX11-Projects"}>DirectX11</Link></li>
+                            <li class="projthumbnail"><Link to={"/Web-Projects"}>Web Development</Link></li>
+                            <li class="projthumbnail"><Link to={"/Unity-Projects"}>Unity Development</Link></li>
+                            <li class="projthumbnail"><Link to={"/DirectX11-Projects"}>DirectX11 Develpoment</Link></li>
                         </ul>
                     </li>
                 </ul>
