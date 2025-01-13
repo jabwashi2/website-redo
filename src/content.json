@@ -3,15 +3,18 @@
         [
             {
                 "title": "Web Projects",
-                "path": "/Web-Projects"
+                "path": "/Web-Projects",
+                "id": "web-link"
             },
             {
                 "title": "Unity Projects",
-                "path": "/Unity-Projects"
+                "path": "/Unity-Projects",
+                "id": "unity-link"
             },
             {
                 "title": "DirectX11 Projects",
-                "path": "/DirectX11-Projects"
+                "path": "/DirectX11-Projects",
+                "id": "dx11-link"
             }
         ],
     "about": 

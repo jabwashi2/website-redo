@@ -30,8 +30,64 @@ code {
 
 .dropdown-menu {
   color: #e4588a;
+  display: inline-block;
+}
+.dropdown-menu li{
+  text-align: center;
 }
 
 .navlink {
+  color: #0d0c16;
+}
+.navlink:hover {
+  color: #7f96ff;
+}
+
+/* main page */
+
+#intro, #about, #contact {
   color: #fcfcff;
 }
+
+#intro {
+  margin-top: 1em;
+}
+
+/* project categories */
+.category {
+  /* border-style: solid; */
+  /* border-color: #e4588a; */
+  border-radius: 30px;
+  width: 50vw;
+  height: 50vw;
+  margin: auto;
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #e4588a; */
+}
+#category-link {
+  padding: 5rem;
+}
+.category h1 {
+  font-size: 1.7em;
+  color: #0d0c16;
+}
+#web-link {
+  background-color: #dccca3;
+}
+#unity-link {
+  background-color: #7f96ff;
+}
+#dx11-link{
+  background-color: #e4588a;
+}
+/* about */
+
+
+
+/* contact */
+
+
+/* media queries */

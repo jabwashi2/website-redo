@@ -6,12 +6,12 @@
 
 export function CategoryThumbnail(props) {
     return (
-        <>
-            <a href={props.path}>
+        <div id={props.id} class="category" >
+            <a id="category-link" href={props.path}>
                 <div>
                     <h1>{props.title}</h1>
                 </div>
             </a>
-        </>
+        </div>
     );
 };
