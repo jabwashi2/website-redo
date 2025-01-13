@@ -49,3 +49,8 @@ Image carousel library (current):
 
 Navbar library (current):
 - https://getbootstrap.com/docs/5.3/components/navbar/
+
+
+notes:
+-text is a bit small for ipads
+- will need to make category thumbnail div a flexbox on pc

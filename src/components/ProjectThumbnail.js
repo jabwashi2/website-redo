@@ -4,10 +4,7 @@ export function ProjectThumbnail(props) {
     console.log(props.category)
     return (
         <>
-            <div id={props.title}>
-                {/* <a href={props.path}>
-                    <h1>{props.title}</h1>
-                </a> */}
+            <div class="project-thumbnail" id={props.title}>
                 <Link to={ props.category === "web" ? "/Web-Projects/" + props.id : props.category === "unity" ? "/Unity-Projects/" + props.id : "/DirectX11-Projects/" + props.id}>
                     <h1>{props.title}</h1>
                 </Link>

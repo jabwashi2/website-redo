@@ -3,7 +3,7 @@ import { Download } from "../components/Download"
 export function ContactPage() {
     return (
         <>
-            <div id='contact'>
+            <div id="contact">
                 <h1>Contact Me!</h1>
                 <ul id="contact-info">
                     <li><a href="https://www.linkedin.com/in/jabrecia-washington/">LinkedIn</a></li>
