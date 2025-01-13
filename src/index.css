@@ -84,10 +84,41 @@ code {
   background-color: #e4588a;
 }
 /* about */
+#about{
+  margin-top: 3em;
+  text-align: justify;
+  padding-left: 1em;
+  padding-right: 1em;
+}
 
+#title-line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-img {
+  width: 25%;
+  margin-right: 1em;
+}
+
+#about-content{
+  padding-top: 1em;
+  font-size: 1em;
+}
 
 
 /* contact */
+#contact{
+  margin-top: 3em;
+}
 
+#contact-info{
+  list-style: none;
+  padding: 0;
+}
+#contact-info li{
+  padding: .7em;
+}
 
 /* media queries */

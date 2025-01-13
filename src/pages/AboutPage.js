@@ -6,9 +6,11 @@ export function AboutPage() {
     return (
         <>
         <div id='about'>
-            <img src={about.image} alt=""></img>
-            <h1>{about.title}</h1>
-            <p>{about.content}</p>
+            <div id="title-line">
+                <img id="about-img" src={about.image} alt=""></img>
+                <h1 id="about-title">{about.title}</h1>
+            </div>
+            <p id="about-content">{about.content}</p>
         </div>
             
         </>
