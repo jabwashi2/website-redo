@@ -149,4 +149,51 @@ code {
   font-size: .8rem;
 }
 
+/* project pages */
+#proj-page {
+
+}
+
+.proj-content {
+  padding-top: 1.3em;
+  color: #fcfcff;
+}
+
+#proj-title {
+  text-align: center;
+  color: #fcfcff;
+}
+
+#proj-tools {
+  text-align: center;
+}
+#proj-tools p {
+  display: inline;
+  padding-left: .5em;
+  color: #fcfcff;
+}
+
+.carousel{
+  padding-top: 1.3em;
+}
+
+.proj-subhead {
+  text-align: center;
+}
+.proj-content h2 {
+  font-size: 1.3rem;
+}
+
+#breakdown-title {
+  padding-top: .5em;
+}
+
+#proj-desc-title {
+ padding-top: 1em;
+}
+
+.proj-content-text {
+  text-align: justify;
+  margin: 1em;
+}
 /* media queries */
