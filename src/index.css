@@ -123,8 +123,14 @@ code {
 
 /* project thumbnails */
 .project-thumbnail {
-  
+  width: 50vw;
+  height: 50vw;
+  background-color: #dccca3;
+  margin: auto;
 }
 
+.projthumb-text {
+
+}
 
 /* media queries */
