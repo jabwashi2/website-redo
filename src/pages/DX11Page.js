@@ -1,9 +1,6 @@
-// this page will hold the 
-
 import { ProjectThumbnail } from "../components/ProjectThumbnail";
 import dataJSON from '../content.json'
 import { Navbar } from "../components/Navbar";
-
 
 // category name: "directx11"
 

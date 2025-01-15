@@ -52,6 +52,10 @@ Navbar library (current):
 
 
 notes:
--text is a bit small for ipads
+- text is a bit small for ipads
 - will need to make category thumbnail div a flexbox on pc
 - navbar content not centered on other pages
+- add tools to project thumbnail
+- make bg of thumbnail a project image?
+- take html tags out of project content in json file
+- fix links in navbar to page sections

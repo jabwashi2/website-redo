@@ -23,9 +23,9 @@ code {
 }
 
 /* navbar */
-
 .navbar {
   background-color: #e4588a;
+  text-align: center;
 }
 
 .dropdown-menu {
@@ -44,19 +44,16 @@ code {
 }
 
 /* main page */
-
 #intro, #about, #contact {
   color: #fcfcff;
 }
 
 #intro {
-  margin-top: 1em;
+  margin-top: 1.5em;
 }
 
 /* project categories */
 .category {
-  /* border-style: solid; */
-  /* border-color: #e4588a; */
   border-radius: 30px;
   width: 50vw;
   height: 50vw;
@@ -65,7 +62,6 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: #e4588a; */
 }
 #category-link {
   padding: 5rem;
@@ -83,9 +79,10 @@ code {
 #dx11-link{
   background-color: #e4588a;
 }
+
 /* about */
 #about{
-  margin-top: 3em;
+  margin-top: 3.3em;
   text-align: justify;
   padding-left: 1em;
   padding-right: 1em;
@@ -103,7 +100,7 @@ code {
 }
 
 #about-content{
-  padding-top: 1em;
+  padding-top: 1.3em;
   font-size: 1em;
 }
 
@@ -120,6 +117,10 @@ code {
 #contact-info li{
   padding: .7em;
 }
+#contact-info a {
+  color: #fcfcff;
+}
+
 
 /* project thumbnails */
 #cat-title {
@@ -150,10 +151,6 @@ code {
 }
 
 /* project pages */
-#proj-page {
-
-}
-
 .proj-content {
   padding-top: 1.3em;
   color: #fcfcff;

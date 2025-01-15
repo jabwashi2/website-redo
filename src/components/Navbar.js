@@ -1,7 +1,9 @@
 // using bootstrap for the navbar, making it a component so it can be used on other pages
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+
 
 export function Navbar() {
     return (
@@ -13,10 +15,10 @@ export function Navbar() {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <Link to={"/#about"} class="navlink">About</Link>
+                        <HashLink to={"#about"} class="navlink">About</HashLink>
                     </li>
                     <li class="nav-item">
-                        <Link to={"/#contact"} class="navlink">Contact</Link>
+                        <Link to={"#contact"} class="navlink">Contact</Link>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle navlink" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
