@@ -206,3 +206,18 @@ code {
 }
 
 /* media queries */
+@media screen and (min-width: 900px) {
+  .navbar {
+    justify-content: space-around;
+  }
+  .navlink {
+    color: blue;
+    display: block;
+    padding: 1em;
+  }
+
+  .dropdown {
+    display: block;
+    padding: .5em;
+  }
+}
