@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 export function ProjectThumbnail(props) {
-    console.log(props.category)
+    // let project = props.projects.find(project => project.title === props.title);
     return (
         <>
             <div class="project-thumbnail" id={props.title}>
@@ -10,6 +10,9 @@ export function ProjectThumbnail(props) {
                 </Link>
                 {/* ^will link to a custom version of ProjectPage.js */}
                 <p class="projthumb-text" id="projthumb-desc">{props.desc}</p>
+                <div id="proj-tools-thumb">
+                    {props.tools.map((tool) => <p>{tool}</p>)}
+                </div>
                 <p class="projthumb-text" id="projthumb-status"><em>{props.status}</em></p>
             </div>
             

@@ -10,7 +10,7 @@ export function DX11Page(props) {
             <Navbar />
             <div class="catpagecontent">
                 <h1 id="cat-title">DX11 Projects</h1>
-                {dataJSON.projects.map((project) => project.category === "directx11" ? <ProjectThumbnail path={project.path} title={project.title} desc={project.shortdesc} status={project.status} id={project.id} category={project.category}/> : "")}
+                {dataJSON.projects.map((project) => project.category === "directx11" ? <ProjectThumbnail path={project.path} title={project.title} desc={project.shortdesc} status={project.status} id={project.id} category={project.category} tools={project.tools}/> : "")}
             </div>
         </div>
     );

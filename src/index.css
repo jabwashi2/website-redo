@@ -147,7 +147,18 @@ code {
   color: #0d0c16;
 }
 #projthumb-desc, #projthumb-status {
+  color: #0d0c16;
   font-size: .8rem;
+}
+
+#proj-tools-thumb {
+  color: #0d0c16;
+  text-align: center;
+}
+#proj-tools-thumb p {
+  display: inline;
+  font-size: .8rem;
+  padding-left: .5em;
 }
 
 /* project pages */
