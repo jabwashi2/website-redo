@@ -15,10 +15,10 @@ export function Navbar() {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <HashLink to={"#about"} class="navlink">About</HashLink>
+                        <HashLink to={"/#about"} class="navlink">About</HashLink>
                     </li>
                     <li class="nav-item">
-                        <HashLink to={"#contact"} class="navlink">Contact</HashLink>
+                        <HashLink to={"/#contact"} class="navlink">Contact</HashLink>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle navlink" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
