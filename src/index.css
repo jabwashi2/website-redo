@@ -209,9 +209,9 @@ code {
 @media screen and (min-width: 900px) {
   .navbar {
     justify-content: space-around;
+    font-size: 1.1em;
   }
   .navlink {
-    color: blue;
     display: block;
     padding: 1em;
   }
@@ -219,5 +219,70 @@ code {
   .dropdown {
     display: block;
     padding: .5em;
+  }
+
+  #categories-page {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .category {
+    width: 30vw;
+    height: 30vw;
+  }
+
+  #about {
+    font-size: 1.1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+
+  #about-img {
+    width: 15%;
+  }
+
+  #contact-info {
+    font-size: 1.1em;
+  }
+
+  .catpage-thumb {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .project-thumbnail {
+    width: 35vw;
+    height: 20vw;
+  }
+
+  .projthumb-text {
+    padding-top: 3em;
+  }
+
+  #projthumb-title {
+    font-size: 1.5rem;
+  }
+  #projthumb-desc, #projthumb-status {
+    font-size: .9rem;
+    padding: .2em;
+  }
+
+  #proj-tools-thumb p {
+    display: inline;
+    font-size: .9rem;
+    padding-left: .5em;
+  }
+
+  .carousel {
+    width: 75%;
+    margin: auto;
+  }
+
+  .proj-content h2 {
+    font-size: 1.4em;
+  }
+
+  .proj-content-text {
+    margin: 1.3em;
+    font-size: 1.1em;
   }
 }

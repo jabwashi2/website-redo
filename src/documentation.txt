@@ -56,3 +56,4 @@ notes:
 - will need to make category thumbnail div a flexbox on pc
 - add tools to project thumbnail
 - make bg of thumbnail a project image?
+- hover animations for thumbnails
