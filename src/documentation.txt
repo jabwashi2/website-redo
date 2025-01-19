@@ -53,3 +53,4 @@ Navbar library (current):
 
 notes:
 - make bg of thumbnail a project image?
+- add tools section to about section on home page

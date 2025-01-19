@@ -9,18 +9,24 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #0d0c16;
 }
+h1, h2 {
+  font-family: 'Bebas Neue', sans-serif;
+}
+p, a, ul {
+  font-family: 'Montserrat', sans-serif;
+}
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 
 /* navbar */
 .navbar {
@@ -224,6 +230,10 @@ code {
     padding: .5em;
   }
 
+  #intro {
+    font-size: 2.7em;
+  }
+
   #categories-page {
     display: flex;
     justify-content: space-evenly;
@@ -253,11 +263,15 @@ code {
     font-size: 1.1em;
   }
 
+  #cat-title {
+    margin-bottom: 1.3em;
+    font-size: 2.7em;
+  }
+
   .catpage-thumb {
     display: flex;
     justify-content: space-between;
   }
-
 
   .project-thumbnail {
     width: 35vw;
@@ -291,7 +305,7 @@ code {
   }
 
   .proj-content h2 {
-    font-size: 1.4em;
+    font-size: 1.7em;
   }
 
   .proj-content-text {
