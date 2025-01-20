@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/website-redo/static/css/main.18b0954a.css",
+    "main.js": "/website-redo/static/js/main.d18a1f31.js",
+    "static/js/453.53e1044f.chunk.js": "/website-redo/static/js/453.53e1044f.chunk.js",
+    "static/media/Jabrecia_Washington_Resume.pdf": "/website-redo/static/media/Jabrecia_Washington_Resume.9832f2b53850bba12279.pdf",
+    "index.html": "/website-redo/index.html",
+    "main.18b0954a.css.map": "/website-redo/static/css/main.18b0954a.css.map",
+    "main.d18a1f31.js.map": "/website-redo/static/js/main.d18a1f31.js.map",
+    "453.53e1044f.chunk.js.map": "/website-redo/static/js/453.53e1044f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18b0954a.css",
+    "static/js/main.d18a1f31.js"
+  ]
+}
